@@ -3,9 +3,14 @@ chromadb>=0.6.0
 groq==0.15.0
 python-dotenv==1.0.1
 
-# Query interface — add whichever you use for Milestone 5:
-# gradio>=6.9.0
-# streamlit>=1.40.0
+# Query interface (Milestone 5):
+gradio>=6.9.0
+
+# Ingestion (Milestone 3): Reddit threads are parsed from saved HTML and the
+# JS/bot-protected sites are rendered with a headless browser.
+beautifulsoup4>=4.12
+lxml>=5.0
+playwright>=1.40
 
 # Document ingestion — add if your documents/ folder contains .pdf files:
 # pdfplumber==0.11.4
